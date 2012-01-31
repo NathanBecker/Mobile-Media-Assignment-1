@@ -60,7 +60,7 @@
                             <outlet property="delegate" destination="12" id="15"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Master" id="35"/>
+                    <navigationItem key="navigationItem" title="Restaurants" id="35"/>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="455" y="64"/>
@@ -148,7 +148,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">Festooned with the kind of bric-a-brac you'd find at a Frenchified TGI Friday's, Flea Market serves food derived from some Über-bistro in Normandy. Funny how the French both developed the theory of the simulacrum—the idea that much of what we experience as "real" is in fact a representation of something actually (or formerly) real—and put it into practice. Which is not to say that the food—pistachio-crusted salmon over veg napoloen, Sunday-brunch "oeufs Benedicte"—tastes like a simulacrum. Rather, it's correct, as the French would say. And with so many less-than-correct bistros infesting the East Village and Lower East Side, the "antique" flea-market tchotchkes are no barrier to enjoying a precise steak-frites and a few glasses of Merlot. — Rob Patronite and Robin Raisfeld, NY Magazine
+
+Brunch
+Sat.—Sun., 10 a.m.—4:15 p.m.
+
+Recommended Dishes
+Salmon, $16.95; steak frites, $16.50</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
