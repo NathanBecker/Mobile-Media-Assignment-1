@@ -7,14 +7,14 @@
 
 @implementation Restaurant
 
--(float) priceOfDinner
+-(float) priceOfDinnerForGuests: (int)numberOfGuests
 {
     float entreePrice = 22.50;
     float appetizerPrice = 11.00;
     float dessertPrice = 5.50;
     float winePrice = 34.25;
     
-    int numberOfGuests = 6;
+//    int numberOfGuests = 6;
     
     float taxRate = .0875;
     float tipRate = .2;
@@ -61,7 +61,13 @@
 - (id)init {
     self = [super init];
     if (self) {
-        float priceForFamily = [self priceOfDinner];
+        float priceForFamily = [self priceOfDinnerForGuests: 4];
+    }
+    return self;
+
+    self = [super init];
+    if (self) {
+        float priceForFamily2 = [self priceOfDinnerForGuests: 3];
     }
     return self;
 }
