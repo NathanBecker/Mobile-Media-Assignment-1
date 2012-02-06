@@ -27,15 +27,24 @@
     int numberOfDessertsOrdered = 0;
     int numberOfEntreesOrdered = 0;
     int numberOfWineBottlesOrdered = 0;
-    
-    
+        
     /* Set dinnerPrice to be the cost of:
-        1 entree per person
-        1 dessert per person
-        1 appetizer for every 2 people 
-        1 bottle of wine for every 4 people. 
+       • 1 entree per person
+       • 1 dessert per person
+       • 1 appetizer for every 2 people 
+       • 1 bottle of wine for every 4 people. */
+    
+    numberOfEntreesOrdered = numberOfGuests;
+    numberOfDessertsOrdered= numberOfGuests;
+    numberOfAppetizersOrdered = (float) numberOfGuests/2.0;
+    numberOfWineBottlesOrdered  = ceil((float)numberOfGuests)/4.0;
+    dinnerPrice = (numberOfEntreesOrdered * entreePrice) + (numberOfDessertsOrdered * dessertPrice) + (numberOfAppetizersOrdered * appetizerPrice) + (numberOfWineBottlesOrdered * winePrice);
+    
+    tip = dinnerPrice * tipRate;
+    taxes = dinnerPrice * taxRate;
+    
      
-     Make sure to also calculate the tax and tip correctly, and feel free to use the numberOfXXXXXOrdered variables to help with your calculations;
+     /* Make sure to also calculate the tax and tip correctly, and feel free to use the numberOfXXXXXOrdered variables to help with your calculations;
      */
     
     // *********************   
